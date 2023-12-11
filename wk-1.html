@@ -203,6 +203,26 @@ backdrop-filter:blur(15px);background-color:rgba(0,0,0,0);overflow:hidden;}
 -webkit-backdrop-filter:blur(15px);
 backdrop-filter:blur(15px);background-color:rgba(2,2,2,.55);;overflow:hidden;}	
 
+html, body{
+    /* 禁用回弹效果 */
+    overscroll-behavior: none;
+    /* 防止部分浏览器默认拖拽行为 */
+    -webkit-user-drag: none;user-select: none;
+    /* 禁用回弹效果 */
+    overscroll-behavior: none;
+    /* 防止部分浏览器默认拖拽行为 */
+    -webkit-user-drag: none;
+    /* 防止文本选择 */
+    -webkit-touch-callout: none;
+    /* 禁止长按链接弹出菜单 */
+    -webkit-user-select: none;
+    /* webkit浏览器 */
+    -khtml-user-select: none;
+}
+ 
+————————————————
+版权声明：本文为CSDN博主「H-」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/ulmaps/article/details/132241039
 
 		
 .blink {
